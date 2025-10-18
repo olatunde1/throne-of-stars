@@ -168,7 +168,7 @@ export default function GroceryStoreLandingPage() {
                 <img
                   src={item.image || "https://via.placeholder.com/150"}
                   alt={item.name}
-                  className="h-full w-full object-contain"
+                  className="h-full w-full object-cover"
                 />
                 <div className="p-4 flex flex-col flex-grow">
                   <h3 className="font-semibold mb-1">{item.name}</h3>
